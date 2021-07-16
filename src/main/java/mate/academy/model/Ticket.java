@@ -2,7 +2,7 @@ package mate.academy.model;
 
 import javax.persistence.*;
 
-@Entity(name = "users")
+@Entity(name = "tickets")
 public class Ticket {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
